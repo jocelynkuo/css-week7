@@ -1,0 +1,70 @@
+/* 樣式 */
+
+.a-primary {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--primary-400);
+  font-weight: 500;
+}
+
+.text-highlight {
+  color: var(--primary-400);
+}
+
+ul li {
+  text-align: left;
+}
+
+/* 切版 */
+
+header {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 151px 0;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  header {
+    padding: 87px 0;
+  }
+}
+
+.BlockQuote {
+  background-color: var(--primary-100);
+  text-align: center;
+  padding: var(--spacing-xl);
+  border-radius: 12px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 767px) {
+  .BlockQuote {
+    padding: var(--spacing-l);
+    text-align: left;
+  }
+}
+
+.history-desc {
+  border-left: 1px solid var(--neutral-900);
+  padding-left: var(--spacing-xs);
+}
+
+.history li {
+  list-style-type: disc;
+  margin-left: 24px;
+}
+
+.concept li {
+  border-left: 3px solid var(--neutral-300);
+  padding-left: var(--spacing-s);
+}
+
+.story .bi {
+  margin-right: var(--spacing-xs);
+}
+
+

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Noto+Sans+TC:wght@100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@import "reset.css";
+@import "variables.css";
+@import "base.css";
+
+/* Components ----------------------------------------*/
+/* nav */
+.logo a {
+  font-family: Mina;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.88px;
+
+  padding: 8px 12px;
+
+  text-decoration: none;
+  color: var(--neutral-900);
+}
+
+.btn-wrapper i {
+  padding: 12px;
+}
+
+.page-links a {
+  text-decoration: none;
+  height: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.bi-person {
+  font-size: 24px;
+}
+
+.breadcrumb {
+  color: var(--neutral-600);
+}
+
+@media (max-width: 767px) {
+}
+
+.bread-active {
+  color: var(--neutral-900);
+}
+
+/* product list  */
+.card {
+  width: calc((100% - 48px) / 3);
+}
+
+@media (max-width: 767px) {
+  .card-md {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+.btn-pagination {
+  padding: 8px 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.active {
+  background-color: var(--primary-300);
+}
+
+.banner {
+  background-color: var(--primary-200);
+}
+
+/* btn */
+.btn-default {
+  /* layout */
+  /* min-height: 48px; */
+  padding: var(--spacing-s, 12px) var(--spacing-l, 24px);
+  justify-content: center;
+  align-items: center;
+  /* style */
+  border-radius: var(--randius-xs);
+  border: 1px solid var(--neutral-900);
+  background-color: var(--neutral-900);
+  color: var(--neutral-0);
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  /* layout */
+
+  .btn-md-default {
+    padding: 8px 16px;
+  }
+}
+
+.btn-base {
+  /* layout */
+  min-height: 48px;
+  padding: var(--spacing-s, 12px) var(--spacing-l, 24px);
+  justify-content: center;
+  align-items: center;
+  /* style */
+  border-radius: var(--randius-xs);
+  border: 1px solid var(--neutral-900);
+  background-color: transparent;
+  color: var(--neutral-900);
+  font-size: 16px;
+}
+
+.icon-btn-transparent {
+  min-width: 40px;
+  min-height: 40px;
+  padding: var(--spacing-xs, 8px) var(--spacing-xs, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xs, 8px);
+}
+
+.btn-base-size {
+  border: 1px solid var(--neutral-300);
+}
+.btn-active {
+  border: 1px solid var(--neutral-900);
+}
+
+.btn-base-fullwidth {
+  width: 100%;
+}
+
+.btn-base .bi {
+  padding-right: 8px;
+}
+
+.btn-disabled {
+  color: var(--neutral-900);
+  border: 1px solid var(--neutral-300);
+  opacity: 0.4;
+  background: var(--White, #fff);
+}
+
+.copyright {
+  padding-top: 32px;
+  text-align: center;
+  border-top: 1px solid var(--neutral-300);
+}
+
+/* signle-product */
+
+.row2 {
+  padding-left: -4px;
+  padding-right: -4px;
+}
+
+.img-box {
+  width: calc((100% - 8px) / 2);
+}
+
+@media (max-width: 767px) {
+  .img-box {
+    width: calc(100% - 8px);
+  }
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.size-64-square {
+  width: 64px;
+  height: 64px;
+}
+
+
+.content-suggestion {
+  width: 1280px;
+}
+
+.card-suggestion {
+  width: calc((100% - 72px) / 4);
+}
+
+@media (max-width: 576px) {
+  .card-md-suggestion {
+    width: 300px;
+  }
+}

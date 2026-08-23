@@ -1,0 +1,29 @@
+/* 顏色 */
+:root {
+  --primary-400: #57a203;
+  --primary-300: #c0fa73;
+  --primary-200: #e8fec5;
+  --primary-100: #f5fee7;
+  --neutral-900: #212529;
+  --neutral-600: #6c757d;
+  --neutral-500: #e9ecef;
+  --neutral-300: #dee2e6;
+  --neutral-100: #f8f9fa;
+  --neutral-0: #ffffff;
+  --functional-danger-300: #d74f4f;
+  --functional-danger-200: #eba7a7;
+  --functional-danger-100: #fcf1f1;
+
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-s: 12px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 56px;
+  --spacing-5xl: 64px;
+
+  --randius-xs: 4px;
+}
